@@ -232,8 +232,8 @@ def handle_bgmi(message):
             target = command[1]
             port = int(command[2])  # Convert time to integer
             time = int(command[3])  # Convert port to integer
-            if time > 301:
-                response = "Error: Time interval must be less than 301."
+            if time > 360:
+                response = "Error: Time interval must be less than 360."
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
@@ -316,14 +316,14 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos Baap DDos!!:
 
 Vip 🌟 :
--> Attack Time : 300 (S)
+-> Attack Time : 360 (S)
 > After Attack Limit : 10 Min
 -> Concurrents Attack : 3
 
 Pr-ice List💸 :
 Day-->200 Rs
 Week-->600 Rs
-Month-->100 Rs
+Month-->1000 Rs
 '''
     bot.reply_to(message, response)
 
