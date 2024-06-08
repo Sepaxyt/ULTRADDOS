@@ -282,7 +282,7 @@ def show_help(message):
 
 🤖 To See Admin Commands:
 💥 /admincmd : Shows All Admin Commands.
-By Indian Watchdogs @MRAMANKING53
+By @MRAMANKING53 { Jai Shree Ram }
 '''
     for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
@@ -297,7 +297,7 @@ By Indian Watchdogs @MRAMANKING53
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy  @mrkingaman53"
+    response = f"Welcome to Your Home, {user_name}! Feel Free to Explore.\nTry To Run This Command : /help\nWelcome To The World's Best Ddos Bot\nBy @mramanking53"
     bot.reply_to(message, response)
 
 @bot.message_handler(commands=['rules'])
