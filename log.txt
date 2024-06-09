@@ -1,0 +1,6 @@
+UserID: 6515915109 | Time: 2024-06-09 06:51:36.808131 | Command: /bgmi | Target: 20.204.159.211 | Port: 12147 | Time: 361
+Username: @Mramanking53
+Target: 20.204.159.211
+Port: 12147
+Time: 361
+
